@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leistungen & Preise — Atelier Meier Zürich</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Jost:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .page-hero {
+      background: linear-gradient(135deg, var(--espresso) 0%, #2a1e10 50%, var(--espresso-mid) 100%);
+      padding: calc(var(--header-h) + 4rem) 5% 4rem;
+      position: relative; overflow: hidden;
+    }
+    .page-hero::before {
+      content: ''; position: absolute; inset: 0;
+      background: repeating-linear-gradient(45deg, transparent, transparent 60px, rgba(184,147,90,0.02) 61px),
+                  repeating-linear-gradient(-45deg, transparent, transparent 60px, rgba(255,255,255,0.01) 61px);
+    }
+    .page-hero-content { position: relative; z-index: 1; }
+    .cc-style { background: linear-gradient(160deg,#2a1e10,#1a1208); }
+    .cc-cut { background: linear-gradient(160deg,#c8bfb2,#ddd8d0); }
+    .cc-color { background: linear-gradient(160deg,#5a3d28,#8a6040); }
+    .cc-before-style { background: linear-gradient(160deg,#9a9080,#b0a898); }
+    .cc-before-cut { background: linear-gradient(160deg,#ede8df,#d8d0c0); }
+    .cc-before-color { background: linear-gradient(160deg,#9a9080,#aaa098); }
+  </style>
+</head>
+<body>
+
+<header class="header dark-bg">
+  <a href="index.html" class="nav-logo">
+    <img src="images/SOGNA Studio rundes Logo.png" alt="SOGNA Studio Logo" class="logo-img">
+    <span class="logo-text">
+      ✦ SOGNA Studio
+      <span>Webdesign</span>
+    </span>
+  </a>
+  <nav class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="index.html#about">Über uns</a>
+    <a href="index.html#bewertungen">Bewertungen</a>
+    <a href="produkte.html" class="active">Projekte & Preise</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
+  <div class="nav-right">
+    <a href="kontakt.html" class="btn btn-gold">Projekt anfragen</a>
+    <button class="hamburger" aria-label="Menü"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<nav class="mobile-nav">
+  <a href="index.html">Home</a>
+  <a href="index.html#about">Über uns</a>
+  <a href="index.html#bewertungen">Bewertungen</a>
+  <a href="produkte.html">Projekte & Preise</a>
+  <a href="kontakt.html">Kontakt</a>
+</nav>
+
+<!-- Page Hero -->
+<div class="page-hero">
+  <div class="page-hero-content">
+    <span class="label">Projekte & Preise</span>
+    <h1 class="section-title light" style="font-size:clamp(2rem,5vw,3.5rem);">Alles für deine <em>Webseite</em></h1>
+    <div class="divider-gold"></div>
+    <p style="color:rgba(247,244,239,0.5);font-size:0.88rem;max-width:560px;">Transparente Preise auf einen Blick —<br> und darunter ausgewählte Projekte, lassen Sie sich inspirieren !</p>
+  </div>
+</div>
+
+<!-- ═══ PREISTABELLE ═══ -->
+<section class="section bg-offwhite" id="Preise">
+  <div class="fade-up" style="text-align:center;">
+    <span class="label">Unsere Preise</span>
+    <h2 class="section-title">Transparente <em>Preisliste</em></h2>
+    <div class="divider-gold left"></div>
+</div>
+  <div class="price-grid fade-up">
+    <!-- Damen Schnitt -->
+    <div class="price-card">
+      <div class="price-card-header">
+        <span class="price-cat">Onepager + Kontakt</span>
+        <div class="price-name">Onepager Webseite</div>
+      </div>
+      <div class="price-card-body">
+        <div class="price-item" style="padding-top: 0rem;">
+          <div><span class="price-item-name">Komplette Website auf einer Seite <br><span class="price-item-desc">+ separater Kontaktseite !</span></div>
+
+        </div>
+        <div class="price-item">
+          <div><span class="price-item-name">Struktur & Inhalte</span><span class="price-item-desc">Hero Section, Product Cards, über uns, Bewertungen, Kontaktseite</span></div>
+
+       </div>
+        <div class="price-item">
+          <div><span class="price-item-name">Separate Kontaktseite</span><span class="price-item-desc">Kontaktformular, Kontaktinfo, Öffnungszeiten, Standort, Socials</span></div>
+
+
+        </div>
+        <div class="price-item">
+          <div><span class="price-item-name">Mobile Optimierung</span><span class="price-item-desc">Perfekt dargestellt auf Handy, Tablet & Desktop</span></div>
+
+        </div>
+        <div class="price-item">
+          <div><span class="price-item-name">Modernes Design & klare Struktur</span></div>
+
+
+        </div>
+        <div class="price-item">
+          <div><span class="price-item-name">2 Seiten </span></div>
+
+          <span class="price-item-price">ab CHF 450</span>
+        </div>
+
+
+      </div>
+    </div>
+
+    <!-- Farbe – featured -->
+    <div class="price-card featured">
+      <div class="price-card-header">
+        <span class="price-badge">Beliebt</span>
+        <span class="price-cat" style="color: var(--black)!important;">Mehrseitige Webseite</span>
+        <div class="price-name">Business Webseite</div>
+      </div>
+      <div class="price-card-body">
+        <div class="price-item" style="padding-top: 0rem;">
+          <div><span class="price-item-name">Onepager inkl. mehrerer Seiten</span><span class="price-item-desc"> Produkt + über uns + Kontakt + Terminseite  !</span></div>
+
+        </div>
+        <div class="price-item">
+          <div><span class="price-item-name">Separate Terminseite</span><span class="price-item-desc">Terminbuchungssystem, Salon Infos</span></div>
+
+
+        </div>
+        <div class="price-item">
+          <div><span class="price-item-name">Separate über uns Seite</span><span class="price-item-desc"></span></div>
+
+        </div>
+        <div class="price-item">
+          <div><span class="price-item-name">Mobile Optimierung</span><span class="price-item-desc">Perfekt dargestellt auf Handy, Tablet & Desktop</span></div>
+
+        </div>
+        <div class="price-item">
+          <div><span class="price-item-name">Modernes Design & klare Struktur</span></div>
+
+        </div>
+        <div class="price-item">
+          <div><span class="price-item-name">5 Seiten</span></div>
+
+          <span class="price-item-price">ab CHF 1'190</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Herren -->
+    <div class="price-card">
+      <div class="price-card-header">
+        <span class="price-cat">Webseite + Produkte + Kontakt</span>
+        <div class="price-name">Webseite mit Katalog</div>
+      </div>
+      <div class="price-card-body">
+        <div class="price-item" style="padding-top: 0rem;">
+          <div><span class="price-item-name">Onepager </span><span class="price-item-desc"> inkl. Produktseite + Kontaktseite !</span></div>
+
+        </div>
+        <div class="price-item">
+          <div><span class="price-item-name">Separate Produktseite</span><span class="price-item-desc">Katalog, Product Cards, Bestseller, Produktsuche</span></div>
+
+        </div>
+        <div class="price-item">
+          <div><span class="price-item-name">Mobile Optimierung</span><span class="price-item-desc">Perfekt dargestellt auf Handy, Tablet & Desktop</span></div>
+
+        </div>
+        <div class="price-item">
+          <div><span class="price-item-name">Modernes Design & klare Struktur</span></div>
+
+        </div>
+        <div class="price-item">
+          <div><span class="price-item-name">3 Seiten</span></div>
+
+          <span class="price-item-price">ab CHF 790</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Treatments -->
+    <div class="price-card">
+      <div class="price-card-header">
+        <span class="price-cat">Komplettlösung</span>
+        <div class="price-name">Shop Webseite</div>
+      </div>
+      <div class="price-card-body">
+        <div class="price-item" style="padding-top: 0rem;">
+          <div><span class="price-item-name">Onepager inkl. mehrerer Seiten</span><span class="price-item-desc"> Produkt + über uns + Kontakt + Termin + Checkout Seite !</span></div>
+
+        </div>
+        <div class="price-item">
+          <div><span class="price-item-name">Separate Checkout Seite</span><span class="price-item-desc">Checkoutsystem, Warenkorb</span></div>
+
+        </div>
+        <div class="price-item">
+          <div><span class="price-item-name">Mobile Optimierung</span><span class="price-item-desc">Perfekt dargestellt auf Handy, Tablet & Desktop</span></div>
+
+        </div>
+        <div class="price-item">
+          <div><span class="price-item-name">Modernes Design & klare Struktur</span></div>
+
+        </div>
+        <div class="price-item">
+          <div><span class="price-item-name">6 Seiten</span></div>
+
+          <span class="price-item-price">ab CHF 1'590</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bridal -->
+    <div class="price-card">
+      <div class="price-card-header">
+        <span class="price-cat">Dienstleistungen</span>
+        <div class="price-name">Erweiterungen & Setup</div>
+      </div>
+      <div class="price-card-body">
+        <div class="price-item" style="padding-top: 0rem;">
+          <div><span class="price-item-name">Hosting je nach Server inkl.</span></div>
+            </div>
+          <div class="price-item">
+            <span class="price-item-name">Einrichtung auf bestehendem Hosting</span>
+          <span class="price-item-price">ab CHF 120</span>
+        </div>
+
+          <div class="price-item">
+          <div><span class="price-item-name">Kundenkonto</span></div>
+              <span class="price-item-price">ab CHF 200</span>
+            </div>
+
+        <div class="price-item">
+          <div><span class="price-item-name">Zusätzliche Seiten</span></div>
+          <span class="price-item-price">ab CHF 200</span>
+        </div>
+        <div class="price-item">
+          <div><span class="price-item-name">Zusätzliche aufwändige Animationen</span></div>
+          <span class="price-item-price">ab CHF 100 </span>
+        </div>
+
+                
+        <div class="price-item">
+          <div><span class="price-item-name">Zusätzliche Wünsche</span></div>
+          <span class="price-item-price">ab CHF 100 </span>
+          </div>
+
+      </div>
+    </div>
+
+  </div>
+  <div style="text-align:center;margin-top:3rem;">
+    <p style="color:var(--taupe);font-size:0.8rem;margin-bottom:1.2rem;">Preise verstehen sich als Richtwerte. Genaue Offerte nach Erstberatung.</p>
+    <a href="kontakt.html" class="btn btn-gold">Auftrag anfragen →</a>
+  </div>
+</section>
+    <!-- Hero -->
+<div class="page-hero-xo" style="padding: calc(var(--header-h) + 0rem) 5% 2rem;">
+  <div class="page-hero-content" style="text-align:center;">
+  <span class="label" id="Projekte">Galerie</span>
+    <h2 class="section-title">Projekte <em> ansehen</em></h2>
+    <div class="divider-gold left"></div>
+   </div>
+</div>
+
+<section class="showcase">
+
+    <div class="showcase-list">
+
+      <article class="show-card">
+        <div class="show-frame">
+          <div class="live-badge"><span class="live-dot"></span>Live</div>
+          <div class="iframe-wrap">
+            <iframe src="https://sognastudio.github.io/coiffeur-zuerich/" loading="lazy" title="Coiffeur Zürich Vorschau"></iframe>
+          </div>
+        </div>
+        <div class="show-info">
+          <p class="label-xo">Beauty · Coiffeur</p>
+          <h3>Coiffeur Zürich</h3>
+          <p class="show-text">Hochwertiger Salon-Auftritt mit klarer Navigation, edler Typografie und einem Design, das Professionalität und Vertrauen ausstrahlt.</p>
+          <div class="show-meta">
+            <div><span class="label">Umfang</span><strong>5 Seiten</strong></div>
+            <div><span class="label">Investition</span><strong>ab CHF 1'190</strong></div>
+          </div>
+          <ul class="show-features">
+            <li>✓ Strukturierte Startseite</li><li>✓ Leistungen & Preise</li>
+            <li>✓ Galerie</li><li>✓ Kontakt & Terminseite</li>
+            <li>✓ Schnelle Ladezeit</li><li>✓ Mobile Optimierung</li>
+          </ul>
+          <div class="show-ctas">
+            <a class="btn btn-gold" target="_blank" rel="noopener" href="https://sognastudio.github.io/coiffeur-zuerich/">Live ansehen ↗</a>
+            <a class="btn btn-outline-light" href="kontakt.html">Anfragen</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="show-card">
+        <div class="show-frame">
+          <div class="live-badge"><span class="live-dot"></span>Live</div>
+          <div class="iframe-wrap">
+            <iframe src="https://sognastudio.github.io/coiffeur-blanc/" loading="lazy" title="Beauty Studio Vorschau"></iframe>
+          </div>
+        </div>
+        <div class="show-info">
+          <p class="label-xo">Beauty · Coiffeur</p>
+          <h3>Coiffeur Onepager</h3>
+          <p class="show-text">Elegante Onepager - Webseite mit klarer Navigation, eleganter Typografie und modernem Design für einen professionellen und vertrauensvollen Salon-Auftritt.</p>
+          <div class="show-meta">
+            <div><span class="label">Umfang</span><strong>2 Seiten inkl. Bestseller</strong></div>
+            <div><span class="label">Investition</span><strong>ab CHF 550</strong></div>
+          </div>
+          <ul class="show-features">
+            <li>✓ Strukturierte Startseite</li><li>✓ Kontaktseite</li>
+            <li>✓ Onepage Aufbau</li><li>✓ inkl. Bestseller</li>
+            <li>✓ Schnelle Ladezeit</li><li>✓ Mobile Optimierung</li>
+          </ul>
+          <div class="show-ctas">
+            <a class="btn btn-gold" target="_blank" rel="noopener" href="https://sognastudio.github.io/coiffeur-blanc/">Live ansehen ↗</a>
+            <a class="btn btn-outline-light" href="kontakt.html">Anfragen</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="show-card">
+        <div class="show-frame">
+          <div class="live-badge"><span class="live-dot"></span>Live</div>
+          <div class="iframe-wrap">
+            <iframe src="https://sognastudio.github.io/Seelen-Magie-Bibliothek/" loading="lazy" title="Local Business Vorschau"></iframe>
+          </div>
+        </div>
+        <div class="show-info">
+          <p class="label-xo">Spiritual · Dienstleistungen</p>
+          <h3>Spiritual Shop/Website</h3>
+          <p class="show-text">Professioneller Onlineshop für spirituelle Dienstleistungen wie Readings und energetische Angebote – klar präsentiert und einfach buchbar.</p>
+          <div class="show-meta">
+            <div><span class="label">Umfang</span><strong>5 Seiten inkl. Checkout</strong></div>
+            <div><span class="label">Investition</span><strong>ab CHF 1'390</strong></div>
+          </div>
+          <ul class="show-features">
+            <li>✓ Strukturierte Startseite</li><li>✓ Über uns & Kontaktseite</li>
+            <li>✓ Produktseite, Filter & Suchleiste</li><li>✓ Checkout und Warenkorb</li>
+            <li>✓ Schnelle Ladezeit</li><li>✓ Mobile Optimierung</li>
+          </ul>
+          <div class="show-ctas">
+            <a class="btn btn-gold" target="_blank" rel="noopener" href="https://sognastudio.github.io/Seelen-Magie-Bibliothek/">Live ansehen ↗</a>
+            <a class="btn btn-outline-light" href="kontakt.html">Anfragen</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="benefits" id="Vorteile">
+  <div class="container">
+
+    <span class="label">Warum wir</span>
+    <h2 class="section-title">Deine <em>Vorteile</em></h2>
+    <div class="divider-gold left"></div>
+
+    <div class="benefits-grid">
+
+      <div class="benefit-card">
+        <div class="benefit-icon">✦</div>
+        <h3>Premium Webdesign</h3>
+        <p>Moderne Websites mit klarer Struktur, hochwertiger Ästhetik und Liebe bis ins kleinste Detail.</p>
+      </div>
+
+      <div class="benefit-card">
+        <div class="benefit-icon">✦</div>
+        <h3>Individuell & schnell entwickelt</h3>
+        <p>Perfekt abgestimmt auf Ihre Marke, Zielgruppe und Ihren Stil - Professionell umgesetzt<br>in ca. 1 Woche.</p>
+      </div>
+
+      <div class="benefit-card">
+        <div class="benefit-icon">✦</div>
+        <h3>Mehr Vertrauen & Anfragen</h3>
+        <p>Websites, die professionell wirken, Vertrauen schaffen und Besucher in echte Kunden verwandeln.</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <span class="footer-brand-name">✦ SOGNA Studio</span>
+      <span class="footer-brand-sub">Webdesign Schweiz</span>
+      <p>Ihr Premium-Webdesigner.<br> <br>Wir entwickeln Websites, die zu Ihnen passen – klar, hochwertig und bis ins Detail einzigartig.</p>
+      <div class="social-row">
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener" class="social-icon-btn" aria-label="Instagram">
+          <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg>
+        </a>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener" class="social-icon-btn" aria-label="Facebook">
+          <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+        <a href="https://www.tiktok.com/" target="_blank" rel="noopener" class="social-icon-btn" aria-label="TikTok">
+          <svg viewBox="0 0 24 24"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Navigation</h4>
+      <ul><li><a href="index.html">Home</a></li><li><a href="index.html#about">Über uns</a></li><li><a href="index.html#bewertungen">Bewertungen</a></li><li><a href="produkte.html" class="active">Projekte & Preise</a></li><li><a href="kontakt.html">Kontakt</a></li></ul>
+    </div>
+    <div class="footer-col">
+      <h4>Leistungen</h4>
+      <ul><li><a href="produkte.html#Preise" class="active">Preisliste</a></li><li><a href="produkte.html#Projekte">Projekte Ansehen</a></li><li><a href="produkte.html#Vorteile">Vorteile</a></li><li><a href="kontakt.html">Projekt Anfragen</a></li></ul>
+    </div>
+    <div class="footer-col">
+      <h4>Kontakt</h4>
+      <a class="footer-contact-line" href="mailto:sogna-studio@outlook.com"><span>Mail</span><span>sogna-studio@outlook.com</span></a>
+      <a class="footer-contact-line" href="tel:+41441234567"><span>Tel</span><span>+41 79 906 45 97 <br>Mo–Sa 14–19 Uhr</span></a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 SOGNA Studio – Webdesign. Alle Rechte vorbehalten.</p>
+    <div class="footer-bottom-links">
+      <a href="Impressum SOGNA Studio.pdf">Impressum</a>
+      <a href="Datenschutzerklärung SOGNA Studio.pdf">Datenschutz</a>
+      <a href="AGBs SOGNA Studio.pdf">AGB</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

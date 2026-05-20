@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coiffeur Zürich — Atelier Meier</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Jost:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Hero background image */
+    .hero-bg {
+      background-image:
+        linear-gradient(to right, rgba(0, 0, 0, 0.88) 0%, rgba(13,10,6,0.2) 60%),
+        url('images/SOGNE\ Studio\ Hero\ bild.png');
+      background-size: cover;
+      background-position: center;
+    }
+
+    @media(max-width:900px){
+    .hero-bg {
+      background-image:
+        linear-gradient(to right, rgba(0, 0, 0, 0.88) 0%, rgba(13,10,6,0.2) 0%),
+        url('images/handytest.png')!important;
+      background-size: cover;
+      background-position: top!important;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+<!-- ═══════ HEADER ═══════ -->
+<header class="header dark-bg">
+  <a href="index.html" class="nav-logo">
+    <img src="images/SOGNA Studio rundes Logo.png" alt="SOGNA Studio Logo" class="logo-img">
+    <span class="logo-text">
+      ✦ SOGNA Studio
+      <span>Webdesign</span>
+    </span>
+  </a>
+  <nav class="nav-links">
+    <a href="index.html" class="active">Home</a>
+    <a href="index.html#about">Über uns</a> 
+    <a href="index.html#bewertungen">Bewertungen</a>
+    <a href="produkte.html">Projekte & Preise</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
+  <div class="nav-right">
+    <a href="kontakt.html" class="btn btn-gold">Projekt anfragen</a>
+    <button class="hamburger" aria-label="Menü"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<nav class="mobile-nav">
+  <a href="index.html">Home</a>
+  <a href="index.html#about">Über uns</a>
+  <a href="index.html#bewertungen">Bewertungen</a>
+  <a href="produkte.html">Projekte & Preise</a>
+  <a href="kontakt.html">Kontakt</a>
+</nav>
+
+<!-- ═══════ HERO ═══════ -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-img-accent"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Schweiz · Webdesign Studio</div>
+    <h1>Websites.<br><em>Style. Identity.</em></h1>
+    <p class="hero-sub">Weil der erste Eindruck entscheidet ! <br>Wir entwickeln Websites, die zu Ihnen passen – klar, hochwertig und bis ins Detail einzigartig.</p>
+    <div class="hero-ctas">
+      <a href="kontakt.html" class="btn btn-gold">Auftrag anfragen</a>
+      <a href="produkte.html" class="btn btn-outline-light">Projekte & Preise</a>
+    </div>
+    <div class="hero-bar">
+    <div class="hero-rating">
+      <span class="stars">★★★★★</span>
+      <span class="rating-text">4.9 (120+ Bewertungen)</span>
+    </div>
+    </div>
+  </div>
+  <div class="scroll-hint">
+    <div class="scroll-line"></div>
+    <span>Entdecken</span>
+  </div>
+</section>
+
+<!-- ═══════ BESTSELLER ═══════ -->
+<section style="padding-bottom: 1rem!important;" class="section bg-offwhite">
+  <div class="fade-up">
+    <span class="label">Live Projekte</span>
+    <h2 class="section-title">Unsere <em>Bestseller</em></h2>
+    <div class="divider-gold"></div>
+    <p style="color:var(--taupe);font-size:1rem;max-width:600px;margin-bottom:0;">Ausgewählte Webseiten, die als Inspiration und Paketvergleich dienen.</p>
+  </div>
+  <div class="bestseller-grid">
+
+    <div class="style-card">
+      <div class="show-frame">
+        <div class="live-badge"><span class="live-dot"></span>Live</div>
+        <div class="iframe-wrap">
+          <iframe src="https://sognastudio.github.io/coiffeur-zuerich/" loading="lazy" title="Coiffeur Zürich Vorschau"></iframe>
+        </div>
+      </div>
+      <div class="style-card-body">
+        <span class="style-badge">Bestseller #1</span>
+        <div class="style-name">Coiffeur Zürich</div>
+        <p class="style-desc">Elegante Website mit Leistungen, Preisen, Galerie, Termin und Kontaktführung.</p>
+        <span class="style-price">5 Seiten - ab CHF 1'190.–</span>
+      </div>
+      <a class="btn btn-outline-dark live-btn" href="https://sognastudio.github.io/coiffeur-zuerich/" target="_blank" rel="noreferrer">Live ansehen →</a>
+    </div>
+
+    <div class="style-card">
+      <div class="show-frame">
+        <div class="live-badge"><span class="live-dot"></span>Live</div>
+        <div class="iframe-wrap">
+          <iframe src="https://sognastudio.github.io/coiffeur-blanc/" loading="lazy" title="Beauty Studio Vorschau"></iframe>
+        </div>
+      </div>
+      <div class="style-card-body">
+        <span class="style-badge">Bestseller #2</span>
+        <div class="style-name">Coiffeur Blanc - Onepager</div>
+        <p class="style-desc">Individuelle Onepager-Website mit Kontaktseite, für einen professionellen Salon-Auftritt.</p>
+        <span class="style-price">2 Seiten inkl. Bestseller- ab CHF 550.–</span>
+      </div>
+<a class="btn btn-outline-dark live-btn" href="https://sognastudio.github.io/coiffeur-blanc/" target="_blank" rel="noreferrer">Live ansehen →</a>
+    </div>
+
+    <div class="style-card">
+      <div class="show-frame">
+        <div class="live-badge"><span class="live-dot"></span>Live</div>
+        <div class="iframe-wrap">
+          <iframe src="https://sognastudio.github.io/Seelen-Magie-Bibliothek/" loading="lazy" title="Local Business Vorschau"></iframe>
+        </div>
+      </div>
+      <div class="style-card-body">
+        <span class="style-badge">Trend 2025</span>
+        <div class="style-name">Spiritual Shop/Website</div>
+        <p class="style-desc">Moderner Onlineshop für lokale Unternehmen und Dienstleister.</p>
+        <span class="style-price">5 Seiten inkl. Checkout- ab CHF 1'390.–</span>
+      </div>
+<a class="btn btn-outline-dark live-btn" href="https://sognastudio.github.io/Seelen-Magie-Bibliothek/" target="_blank" rel="noreferrer">Live ansehen →</a>
+    </div>
+
+  </div>
+  <div style="text-align:center;margin-top:3rem;">
+    <ul><li><a href="produkte.html#Preise" class="btn btn-gold">mehr  ansehen →</a></li></ul>
+  </div>
+</section>
+
+<!-- ═══════ ABOUT ═══════ -->
+<section style="padding:0; background: var(--midnight); padding-bottom: 0rem!important; padding-top: 0rem!important;" id="about">
+  <div class="about-layout">
+    <div class="about-image-container">
+      <div class="about-quote">
+        <blockquote>"Der erste Eindruck entscheidet ! — Wir sorgen dafür, dass er bleibt."</blockquote>
+        <cite>— S. Moroni, Inhaber</cite>
+      </div>
+      <img src="images/über uns.png" alt="Über uns" class="about-image">
+    </div>
+    <div class="about-content">
+      <span class="label">Über uns</span>
+      <h2 class="section-title">Websites die <em>Verkaufen </em></h2>
+      <div class="divider-gold"></div>
+      <span>Weil der erste Eindruck entscheidet !</span>
+      <p>Wir entwickeln Websites, die Marken sichtbar machen, Vertrauen schaffen und Kunden überzeugen.<br>
+      Wir gestalten individuelle Websites für kleine Unternehmen, insbesondere für Coiffeure, Beauty-Studios und lokale Brands, die online hochwertig und professionell auftreten möchten.</p>
+      <span>Eine Website ist heute der erste Kontaktpunkt zwischen Marke und Kunde.</span><p> Sie entscheidet in Sekunden darüber, welchen Eindruck ein Unternehmen hinterlässt. Genau deshalb entwickeln wir digitale Auftritte, die nicht nur gut aussehen, sondern Vertrauen schaffen und die Identität einer Marke klar transportieren.</p>
+      <span>Jedes Projekt wird individuell auf Branche, Zielgruppe und Stil abgestimmt.</span><p>Mit durchdachter Struktur, klarer Navigation, moderner Typografie und Kontaktwegen, die sofort verständlich sind. Design, Benutzerführung und mobile Darstellung werden dabei sorgfältig geplant, damit der erste Eindruck überzeugt und nachhaltig wirkt.
+        Wir arbeiten kreativ, detailverliebt und mit einem hohen Anspruch an Ästhetik und Funktionalität. Neue Ideen und starke visuelle Konzepte stehen im Zentrum unserer Arbeit – immer mit dem Ziel, Websites zu gestalten, die wirklich zu unseren Kunden passen.</p>
+      <span>SOGNA leitet sich vom italienischen Wort „sognare“ ab – träumen.</span>
+      <p>Er steht für die Idee, Visionen sichtbar zu machen und aus Gedanken digitale Erlebnisse zu schaffen, die inspirieren und Bestand haben. Er ist eine Hommage an meine Grossmutter, die denselben Namen trug und für mich stets ein Symbol für Hoffnung und Inspiration war.
+        Dieser Gedanke begleitet jedes unserer Projekte: aus Ideen etwas zu entwickeln, das nicht nur funktioniert, sondern eine Geschichte erzählt und Wirkung hinterlässt.</p>
+      <div class="team-grid" style="grid-template-columns:repeat(3,1fr);">
+      </div>
+      <div style="margin-top:0rem;">
+        <a href="kontakt.html" class="btn btn-gold">Projekt anfragen</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ BEWERTUNGEN ═══════ -->
+<section style=" padding-top: 1rem!important;" id="bewertungen" class="section">
+  <div class="fade-up">
+    <span class="label">Kundenstimmen</span>
+    <h2 class="section-title">Was unsere Kunden <em>sagen</em></h2>
+    <div class="divider-gold"></div>
+  </div>
+  <div class="reviews-grid">
+    <div class="review-card fade-up fade-up-delay-1">
+      <span class="review-stars">★★★★★</span>
+      <p class="review-text">"Von der ersten Idee bis zur fertigen Website lief alles absolut professionell. Das Ergebnis passt perfekt zu meiner Marke und kommt bei meinen Kunden richtig gut an."</p>
+      <div class="review-author-row">
+        <div class="review-avatar">LM</div>
+        <div>
+          <div class="review-name">Lukas M.</div>
+          <span class="review-service">Business Webseite</span>
+        </div>
+      </div>
+    </div>
+    <div class="review-card fade-up fade-up-delay-2">
+      <span class="review-stars">★★★★★</span>
+      <p class="review-text">"Sehr angenehme Zusammenarbeit und ein Ergebnis, das meine Erwartungen übertroffen hat. Modern, klar und auf den Punkt."</p>
+      <div class="review-author-row">
+        <div class="review-avatar">DF</div>
+        <div>
+          <div class="review-name">Daniel F.</div>
+          <span class="review-service">Onepager Webseite</span>
+        </div>
+      </div>
+    </div>
+    <div class="review-card fade-up fade-up-delay-3">
+      <span class="review-stars">★★★★★</span>
+      <p class="review-text">"Ich habe mich von Anfang an gut beraten gefühlt. Die Umsetzung war durchdacht und genau auf mein Business abgestimmt."</p>
+      <div class="review-author-row">
+        <div class="review-avatar">MS</div>
+        <div>
+          <div class="review-name">Marco S.</div>
+          <span class="review-service">Webseite mit Katalog</span>
+        </div>
+      </div>
+    </div>
+    <div class="review-card fade-up fade-up-delay-1">
+      <span class="review-stars">★★★★★</span>
+      <p class="review-text">"Super Zusammenarbeit – schnell, zuverlässig und mit einem starken Gespür für Design. Meine Website wirkt jetzt deutlich hochwertiger."</p>
+      <div class="review-author-row">
+        <div class="review-avatar">TB</div>
+        <div>
+          <div class="review-name">Sarah E.</div>
+          <span class="review-service">Business Webseite</span>
+        </div>
+      </div>
+    </div>
+    <div class="review-card fade-up fade-up-delay-2">
+      <span class="review-stars">★★★★★</span>
+      <p class="review-text">"Endlich eine Website, die nicht nur gut aussieht, sondern auch funktioniert. Klare Empfehlung!"</p>
+      <div class="review-author-row">
+        <div class="review-avatar">TB</div>
+        <div>
+          <div class="review-name">Tim B.</div>
+          <span class="review-service">Business Webseite</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ FOOTER ═══════ -->
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <span class="footer-brand-name">✦ SOGNA Studio</span>
+      <span class="footer-brand-sub">Webdesign Schweiz</span>
+      <p>Ihr Premium-Webdesigner.<br> <br>Wir entwickeln Websites, die zu Ihnen passen – klar, hochwertig und bis ins Detail einzigartig.</p>
+      <div class="social-row">
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener" class="social-icon-btn" aria-label="Instagram">
+          <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg>
+        </a>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener" class="social-icon-btn" aria-label="Facebook">
+          <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+        <a href="https://www.tiktok.com/" target="_blank" rel="noopener" class="social-icon-btn" aria-label="TikTok">
+          <svg viewBox="0 0 24 24"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Navigation</h4>
+      <ul><li><a href="index.html" class="active">Home</a></li><li><a href="index.html#about">Über uns</a></li><li><a href="index.html#bewertungen">Bewertungen</a></li><li><a href="produkte.html">Projekte & Preise</a></li><li><a href="kontakt.html">Kontakt</a></li></ul>
+    </div>
+    <div class="footer-col">
+      <h4>Leistungen</h4>
+      <ul><li><a href="produkte.html#Preise" class="active">Preisliste</a></li><li><a href="produkte.html#Projekte">Projekte Ansehen</a></li><li><a href="produkte.html#Vorteile">Vorteile</a></li><li><a href="kontakt.html">Projekt Anfragen</a></li></ul>
+    </div>
+    <div class="footer-col">
+      <h4>Kontakt</h4>
+      <a class="footer-contact-line" href="mailto:sogna-studio@outlook.com"><span>Mail</span><span>sogna-studio@outlook.com</span></a>
+      <a class="footer-contact-line" href="tel:+41441234567"><span>Tel</span><span>+41 79 906 45 97 <br>Mo–Sa 14–19 Uhr</span></a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 SOGNA Studio – Webdesign. Alle Rechte vorbehalten.</p>
+    <div class="footer-bottom-links">
+      <a href="Impressum SOGNA Studio.pdf">Impressum</a>
+      <a href="Datenschutzerklärung SOGNA Studio.pdf">Datenschutz</a>
+      <a href="AGBs SOGNA Studio.pdf">AGB</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
