@@ -213,3 +213,40 @@ document.addEventListener('DOMContentLoaded', () => {
   initCarousel('car-cuts', 'car-cuts-prev', 'car-cuts-next', 'car-cuts-dots');
   initCarousel('car-color', 'car-color-prev', 'car-color-next', 'car-color-dots');
 });
+
+
+document.getElementById('contact-form').addEventListener('submit', async function(e) {
+  e.preventDefault();
+
+  const form = e.target;
+
+  const data = {
+    vorname: form.vorname.value,
+    nachname: form.nachname.value,
+    email: form.email.value,
+    telefon: form.telefon.value,
+    betreff: form.betreff.value,
+    nachricht: form.nachricht.value,
+  };
+
+  try {
+    const response = await fetch('https://flat-feather-f3d6.sogna-studio.workers.dev', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(data)
+    });
+
+    if (response.ok) {
+      alert('Nachricht erfolgreich gesendet!');
+      form.reset();
+    } else {
+      alert('Fehler beim Senden.');
+    }
+  } catch (error) {
+    alert('Serverfehler.');
+  }
+});
+
+
